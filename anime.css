@@ -12,15 +12,17 @@ body {
   animation-duration: 4s;
   animation-iteration-count: infinite;
   animation-timing-function: ease;
+  animation-direction: alternate;
   color: wheat;
   height: 100%;
   width: 100%;
   display: flex;
+  position: absolute;
 }
 
 .sun {
   animation-name: sun;
-  animation-duration: 10s;
+  animation-duration: 5s;
   animation-iteration-count: infinite;
   height: 175px;
   width: 175px;
@@ -47,7 +49,7 @@ body {
   background: linear-gradient(rgba(87,87,87,0.9) 83%, rgba(218,240,204,1) 100%);
   position: absolute;
   border-radius: 0 2px 0 50px;
-  border-top: 1px solid #fff;
+  border-top: 1px solid rgba(255,255,255,1);
 }
 
 .boat-body::after {
@@ -79,12 +81,89 @@ body {
   border-radius: 0 2px 0 0;
 }
 
-.island1 {
-  background: linear-gradient(rgba(50,172,167,0.5) 0%, rgba(255,255,255,0.5) 15%, lightsalmon 19%, sandybrown 20%, saddlebrown 100%);
+.island {
+  background: linear-gradient(lightsalmon 0%, sandybrown 20%, saddlebrown 100%);
+  animation-name: island-surf;
+  animation-duration: 7.6s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-delay: 2s;
+  animation-timing-function: ease;
   height: 260px;
   width: 100%;
   align-self: flex-end;
   position: absolute;
+  z-index: 1;
+}
+
+.chair1 {
+  position: absolute;
+  top: 80%;
+  left: 10%;
+  z-index: 2;
+  height: 200px;
+  width: 300px;
+}
+
+.chair2 {
+  position: absolute;
+  top: 80%;
+  left: 25%;
+  z-index: 2;
+  height: 200px;
+  width: 300px;
+}
+
+.chair-back {
+  height: 100px;
+  width: 120px;
+  background: rgba(255,255,255,0.5);
+  border: 5px;
+  border-color: rgba(255,255,255,1);
+  border-style: solid;
+  transform: skew(8deg);
+  position: absolute;
+  z-index: 2
+}
+
+.chair-back-legs {
+  height: 30px;
+  width: 122px;
+  border: 4px;
+  border-color: rgba(255,255,255,1);
+  border-style: solid;
+  transform: skew(-10deg);
+  position: absolute;
+  top: 52.8%;
+  left: 1.5%;
+  z-index: 2;
+}
+
+.chair-bottom {
+  height: 485px;
+  width: 500px;
+  background: rgba(255,255,255,0.5);
+  border: 25px;
+  border-color: rgba(255,255,255,1);
+  border-style: solid;
+  transform: skew(80deg) rotateX(88deg) rotateY(-8deg) rotateZ(-12deg);
+  position: absolute;
+  top: -98.9%;
+  left: -53%;
+  z-index: 2
+}
+
+.chair-bottom-legs {
+  height: 25px;
+  width: 120px;
+  border: 4px;
+  border-color: rgba(255,255,255,1);
+  border-style: solid;
+  transform: skew(10deg);
+  position: absolute;
+  top: 15.5%;
+  left: 32.5%;
+  z-index: 2;
 }
 
 /* Boat */
@@ -101,83 +180,101 @@ body {
 /* Water */
 @keyframes water {
   0% {
-    background: linear-gradient(skyblue 0%, lightgrey 28%, lightgoldenrodyellow 33%, lightseagreen 65%, cadetblue 100%);
+    background: linear-gradient(skyblue 0%, lightgrey 28%, lightgoldenrodyellow 33%, lightseagreen 60%, cadetblue 100%);
   }
   5% {
-    background: linear-gradient(skyblue 0%, lightgrey 28%, lightgoldenrodyellow 33%, lightseagreen 65.1%, cadetblue 100%);
+    background: linear-gradient(skyblue 0%, lightgrey 28%, lightgoldenrodyellow 33%, lightseagreen 61%, cadetblue 100%);
   }
   10% {
-    background: linear-gradient(skyblue 0%, lightgrey 28%, lightgoldenrodyellow 33%, lightseagreen 65.2%, cadetblue 100%);
+    background: linear-gradient(skyblue 0%, lightgrey 28%, lightgoldenrodyellow 33%, lightseagreen 62%, cadetblue 100%);
   }
   15% {
-    background: linear-gradient(skyblue 0%, lightgrey 28%, lightgoldenrodyellow 33%, lightseagreen 65.3%, cadetblue 100%);
+    background: linear-gradient(skyblue 0%, lightgrey 28%, lightgoldenrodyellow 33%, lightseagreen 63%, cadetblue 100%);
   }
   20% {
-    background: linear-gradient(skyblue 0%, lightgrey 28%, lightgoldenrodyellow 33%, lightseagreen 65.4%, cadetblue 100%);
+    background: linear-gradient(skyblue 0%, lightgrey 28%, lightgoldenrodyellow 33%, lightseagreen 64%, cadetblue 100%);
   }
   25% {
-    background: linear-gradient(skyblue 0%, lightgrey 28%, lightgoldenrodyellow 33%, lightseagreen 65.5%, cadetblue 100%);
+    background: linear-gradient(skyblue 0%, lightgrey 28%, lightgoldenrodyellow 33%, lightseagreen 65%, cadetblue 100%);
   }
   30% {
-    background: linear-gradient(skyblue 0%, lightgrey 28%, lightgoldenrodyellow 33%, lightseagreen 65.6%, cadetblue 100%);
-  }
-  35% {
-    background: linear-gradient(skyblue 0%, lightgrey 28%, lightgoldenrodyellow 33%, lightseagreen 65.7%, cadetblue 100%);
-  }
-  40% {
-    background: linear-gradient(skyblue 0%, lightgrey 28%, lightgoldenrodyellow 33%, lightseagreen 65.8%, cadetblue 100%);
-  }
-  45% {
-    background: linear-gradient(skyblue 0%, lightgrey 28%, lightgoldenrodyellow 33%, lightseagreen 65.9%, cadetblue 100%);
-  }
-  50% {
     background: linear-gradient(skyblue 0%, lightgrey 28%, lightgoldenrodyellow 33%, lightseagreen 66%, cadetblue 100%);
   }
+  35% {
+    background: linear-gradient(skyblue 0%, lightgrey 28%, lightgoldenrodyellow 33%, lightseagreen 67%, cadetblue 100%);
+  }
+  40% {
+    background: linear-gradient(skyblue 0%, lightgrey 28%, lightgoldenrodyellow 33%, lightseagreen 68%, cadetblue 100%);
+  }
+  45% {
+    background: linear-gradient(skyblue 0%, lightgrey 28%, lightgoldenrodyellow 33%, lightseagreen 69%, cadetblue 100%);
+  }
+  50% {
+    background: linear-gradient(skyblue 0%, lightgrey 28%, lightgoldenrodyellow 33%, lightseagreen 70%, cadetblue 100%);
+  }
   55% {
-    background: linear-gradient(skyblue 0%, lightgrey 28%, lightgoldenrodyellow 33%, lightseagreen 65.9%, cadetblue 100%);
+    background: linear-gradient(skyblue 0%, lightgrey 28%, lightgoldenrodyellow 33%, lightseagreen 71%, cadetblue 100%);
   }
   60% {
-    background: linear-gradient(skyblue 0%, lightgrey 28%, lightgoldenrodyellow 33%, lightseagreen 65.8%, cadetblue 100%);
+    background: linear-gradient(skyblue 0%, lightgrey 28%, lightgoldenrodyellow 33%, lightseagreen 72%, cadetblue 100%);
   }
   65% {
-    background: linear-gradient(skyblue 0%, lightgrey 28%, lightgoldenrodyellow 33%, lightseagreen 65.7%, cadetblue 100%);
+    background: linear-gradient(skyblue 0%, lightgrey 28%, lightgoldenrodyellow 33%, lightseagreen 73%, cadetblue 100%);
   }
   70% {
-     background: linear-gradient(skyblue 0%, lightgrey 28%, lightgoldenrodyellow 33%, lightseagreen 65.6%, cadetblue 100%);
+    background: linear-gradient(skyblue 0%, lightgrey 28%, lightgoldenrodyellow 33%, lightseagreen 74%, cadetblue 100%);
   }
   75% {
-    background: linear-gradient(skyblue 0%, lightgrey 28%, lightgoldenrodyellow 33%, lightseagreen 65.5%, cadetblue 100%);
+    background: linear-gradient(skyblue 0%, lightgrey 28%, lightgoldenrodyellow 33%, lightseagreen 75%, cadetblue 100%);
   }
   80% {
-    background: linear-gradient(skyblue 0%, lightgrey 28%, lightgoldenrodyellow 33%, lightseagreen 65.4%, cadetblue 100%);
+    background: linear-gradient(skyblue 0%, lightgrey 28%, lightgoldenrodyellow 33%, lightseagreen 76%, cadetblue 100%);
   }
   85% {
-    background: linear-gradient(skyblue 0%, lightgrey 28%, lightgoldenrodyellow 33%, lightseagreen 65.3%, cadetblue 100%);
+    background: linear-gradient(skyblue 0%, lightgrey 28%, lightgoldenrodyellow 33%, lightseagreen 77%, cadetblue 100%);
   }
   90% {
-    background: linear-gradient(skyblue 0%, lightgrey 28%, lightgoldenrodyellow 33%, lightseagreen 65.2%, cadetblue 100%);
+    background: linear-gradient(skyblue 0%, lightgrey 28%, lightgoldenrodyellow 33%, lightseagreen 78%, cadetblue 100%);
   }
   95% {
-    background: linear-gradient(skyblue 0%, lightgrey 28%, lightgoldenrodyellow 33%, lightseagreen 65.1%, cadetblue 100%);
+    background: linear-gradient(skyblue 0%, lightgrey 28%, lightgoldenrodyellow 33%, lightseagreen 79%, cadetblue 100%);
   }
   100% {
-    background: linear-gradient(skyblue 0%, lightgrey 28%, lightgoldenrodyellow 33%, lightseagreen 65%, cadetblue 100%);
+    background: linear-gradient(skyblue 0%, lightgrey 28%, lightgoldenrodyellow 33%, lightseagreen 80%, cadetblue 100%);
   }
 }
 
 /* Sun */
-
 @keyframes sun {
   0% {
     background: linear-gradient(rgba(255,254,56,0.9) 0%, rgba(255,182,56,0.9) 25%, rgba(255,254,56,0.9) 100%);
   }
   25% {
-    background: linear-gradient(rgba(255,254,56,0.9) 0%, rgba(255,190,56,0.9) 25%, rgba(255,254,56,0.9) 100%);
+    background: linear-gradient(rgba(255,254,56,0.9) 0%, rgba(255,195,56,0.9) 25%, rgba(255,254,56,0.9) 100%);
   }
   50% {
-    background: linear-gradient(rgba(255,254,56,0.9) 0%, rgba(255,185,56,0.9) 25%, rgba(255,254,56,0.9) 100%);
+    background: linear-gradient(rgba(255,254,56,0.9) 0%, rgba(255,190,56,0.9) 25%, rgba(255,254,56,0.9) 100%);
   }
   100% {
     background: linear-gradient(rgba(255,254,56,0.9) 0%, rgba(255,182,56,0.9) 25%, rgba(255,254,56,0.9) 100%);
+  }
+}
+
+/* Island Surf*/
+@keyframes island-surf {
+  25% {
+    background: linear-gradient(rgba(255,255,255,0.4) 0%, lightsalmon 5%, sandybrown 20%, saddlebrown 100%);
+  }
+
+  50% {
+    background: linear-gradient(rgba(255,255,255,0.4) 0%, lightsalmon 10%, sandybrown 20%, saddlebrown 100%);
+  }
+
+  75% {
+    background: linear-gradient(rgba(255,255,255,0.4) 0%, lightsalmon 5%, sandybrown 20%, saddlebrown 100%);
+  }
+
+  100% {
+    background: linear-gradient(lightsalmon 0%, sandybrown 20%, saddlebrown 100%);
   }
 }
