@@ -16,6 +16,7 @@
   --island-med: rgb(244, 164, 96);
   --island-dark: rgb(139, 69, 19);
   --wave-break: rgba(255, 255, 255, 0.4);
+  --animation-base: 2s;
 }
 
 html,
@@ -35,7 +36,7 @@ body {
     var(--bg-green) 60%,
     var(--bg-dark-blue) 100%
   );
-  animation: water 4s ease infinite alternate;
+  animation: water calc(var(--animation-base) * 2) ease infinite alternate;
   color: wheat;
   height: 100%;
   width: 100%;
@@ -44,7 +45,7 @@ body {
 }
 
 .sun {
-  animation: sun 5s infinite;
+  animation: sun calc(var(--animation-base) * 2 + 1s) infinite;
   height: 175px;
   width: 175px;
   position: absolute;
@@ -60,7 +61,8 @@ body {
     var(--island-dark) 100%
   );
 
-  animation: island-surf 8s ease 2s infinite alternate;
+  animation: island-surf calc(var(--animation-base) * 4) ease
+    var(--animation-base) infinite alternate;
   height: 260px;
   width: 100%;
   align-self: flex-end;
