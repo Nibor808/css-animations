@@ -6,11 +6,10 @@
 @import './animations/island-surf-animation.css';
 
 :root {
-  --bg-light-blue: rgb(135, 206, 235);
+  --bg-blue: rgb(135, 206, 235);
   --bg-grey: rgb(211, 211, 211);
   --bg-yellow: rgb(250, 250, 210);
   --bg-green: rgb(32, 178, 170);
-  --bg-green-val: 61%;
   --bg-dark-blue: rgb(95, 158, 160);
   --island-light: rgb(255, 160, 122);
   --island-med: rgb(244, 164, 96);
@@ -30,7 +29,7 @@ body {
 
 .bg {
   background: linear-gradient(
-    var(--bg-light-blue) 0%,
+    var(--bg-blue) 0%,
     var(--bg-grey) 28%,
     var(--bg-yellow) 33%,
     var(--bg-green) 60%,
@@ -68,4 +67,22 @@ body {
   align-self: flex-end;
   position: absolute;
   z-index: 1;
+}
+
+@media screen and (min-width: 1280px) {
+  .boat {
+    margin-top: 210px;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .boat {
+    margin-top: 270px;
+  }
+}
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .boat {
+    margin-top: 220px;
+  }
 }

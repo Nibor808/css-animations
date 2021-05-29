@@ -1,7 +1,7 @@
 @keyframes water {
   5% {
     background: linear-gradient(
-      var(--bg-light-blue) 0%,
+      var(--bg-blue) 0%,
       var(--bg-grey) 28%,
       var(--bg-yellow) 33%,
       var(--bg-green) 61%,
@@ -10,7 +10,7 @@
   }
   10% {
     background: linear-gradient(
-      var(--bg-light-blue) 0%,
+      var(--bg-blue) 0%,
       var(--bg-grey) 28%,
       var(--bg-yellow) 33%,
       var(--bg-green) 62%,
@@ -19,7 +19,7 @@
   }
   15% {
     background: linear-gradient(
-      var(--bg-light-blue) 0%,
+      var(--bg-blue) 0%,
       var(--bg-grey) 28%,
       var(--bg-yellow) 33%,
       var(--bg-green) 63%,
@@ -28,7 +28,7 @@
   }
   20% {
     background: linear-gradient(
-      var(--bg-light-blue) 0%,
+      var(--bg-blue) 0%,
       var(--bg-grey) 28%,
       var(--bg-yellow) 33%,
       var(--bg-green) 64%,
@@ -37,7 +37,7 @@
   }
   25% {
     background: linear-gradient(
-      var(--bg-light-blue) 0%,
+      var(--bg-blue) 0%,
       var(--bg-grey) 28%,
       var(--bg-yellow) 33%,
       var(--bg-green) 65%,
@@ -46,7 +46,7 @@
   }
   30% {
     background: linear-gradient(
-      var(--bg-light-blue) 0%,
+      var(--bg-blue) 0%,
       var(--bg-grey) 28%,
       var(--bg-yellow) 33%,
       var(--bg-green) 66%,
@@ -55,7 +55,7 @@
   }
   35% {
     background: linear-gradient(
-      var(--bg-light-blue) 0%,
+      var(--bg-blue) 0%,
       var(--bg-grey) 28%,
       var(--bg-yellow) 33%,
       var(--bg-green) 67%,
@@ -64,7 +64,7 @@
   }
   40% {
     background: linear-gradient(
-      var(--bg-light-blue) 0%,
+      var(--bg-blue) 0%,
       var(--bg-grey) 28%,
       var(--bg-yellow) 33%,
       var(--bg-green) 68%,
@@ -73,7 +73,7 @@
   }
   45% {
     background: linear-gradient(
-      var(--bg-light-blue) 0%,
+      var(--bg-blue) 0%,
       var(--bg-grey) 28%,
       var(--bg-yellow) 33%,
       var(--bg-green) 69%,
@@ -82,7 +82,7 @@
   }
   50% {
     background: linear-gradient(
-      var(--bg-light-blue) 0%,
+      var(--bg-blue) 0%,
       var(--bg-grey) 28%,
       var(--bg-yellow) 33%,
       var(--bg-green) 70%,
@@ -91,7 +91,7 @@
   }
   55% {
     background: linear-gradient(
-      var(--bg-light-blue) 0%,
+      var(--bg-blue) 0%,
       var(--bg-grey) 28%,
       var(--bg-yellow) 33%,
       var(--bg-green) 71%,
@@ -100,7 +100,7 @@
   }
   60% {
     background: linear-gradient(
-      var(--bg-light-blue) 0%,
+      var(--bg-blue) 0%,
       var(--bg-grey) 28%,
       var(--bg-yellow) 33%,
       var(--bg-green) 72%,
@@ -109,7 +109,7 @@
   }
   65% {
     background: linear-gradient(
-      var(--bg-light-blue) 0%,
+      var(--bg-blue) 0%,
       var(--bg-grey) 28%,
       var(--bg-yellow) 33%,
       var(--bg-green) 73%,
@@ -118,7 +118,7 @@
   }
   70% {
     background: linear-gradient(
-      var(--bg-light-blue) 0%,
+      var(--bg-blue) 0%,
       var(--bg-grey) 28%,
       var(--bg-yellow) 33%,
       var(--bg-green) 74%,
@@ -127,7 +127,7 @@
   }
   75% {
     background: linear-gradient(
-      var(--bg-light-blue) 0%,
+      var(--bg-blue) 0%,
       var(--bg-grey) 28%,
       var(--bg-yellow) 33%,
       var(--bg-green) 75%,
@@ -136,7 +136,7 @@
   }
   80% {
     background: linear-gradient(
-      var(--bg-light-blue) 0%,
+      var(--bg-blue) 0%,
       var(--bg-grey) 28%,
       var(--bg-yellow) 33%,
       var(--bg-green) 76%,
@@ -145,7 +145,7 @@
   }
   85% {
     background: linear-gradient(
-      var(--bg-light-blue) 0%,
+      var(--bg-blue) 0%,
       var(--bg-grey) 28%,
       var(--bg-yellow) 33%,
       var(--bg-green) 77%,
@@ -154,7 +154,7 @@
   }
   90% {
     background: linear-gradient(
-      var(--bg-light-blue) 0%,
+      var(--bg-blue) 0%,
       var(--bg-grey) 28%,
       var(--bg-yellow) 33%,
       var(--bg-green) 78%,
@@ -163,7 +163,7 @@
   }
   95% {
     background: linear-gradient(
-      var(--bg-light-blue) 0%,
+      var(--bg-blue) 0%,
       var(--bg-grey) 28%,
       var(--bg-yellow) 33%,
       var(--bg-green) 79%,
@@ -172,7 +172,7 @@
   }
   100% {
     background: linear-gradient(
-      var(--bg-light-blue) 0%,
+      var(--bg-blue) 0%,
       var(--bg-grey) 28%,
       var(--bg-yellow) 33%,
       var(--bg-green) 80%,

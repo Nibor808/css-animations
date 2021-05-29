@@ -1,12 +1,8 @@
 .boat {
   height: 45px;
   width: 100px;
-  margin-top: 320px;
   margin-left: -100px;
-  animation-name: boat;
-  animation-timing-function: linear;
-  animation-duration: 120s;
-  animation-delay: 10s;
+  animation: boat 120s linear 10s;
 }
 
 .boat-body {
@@ -31,10 +27,11 @@
   display: block;
   border-radius: 15px 0 0 15px;
   border: 0;
-  background-image: linear-gradient(
+  /* background-image: linear-gradient(
     rgba(218, 240, 204, 1) 100%,
     rgba(218, 240, 204, 1) 100%
-  );
+  ); */
+  background-image: linear-gradient(var(--bg-yellow), var(--bg-yellow));
 }
 
 .boat-stacks {
