@@ -1,0 +1,9 @@
+@keyframes boat {
+  to {
+    margin-left: 100%;
+  }
+
+  from {
+    margin-left: -100px;
+  }
+}

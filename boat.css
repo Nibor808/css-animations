@@ -1,0 +1,54 @@
+.boat {
+  height: 45px;
+  width: 100px;
+  margin-top: 320px;
+  margin-left: -100px;
+  animation-name: boat;
+  animation-timing-function: linear;
+  animation-duration: 120s;
+  animation-delay: 10s;
+}
+
+.boat-body {
+  height: 20px;
+  width: 100px;
+  background: linear-gradient(
+    rgba(87, 87, 87, 0.9) 83%,
+    rgba(218, 240, 204, 1) 100%
+  );
+  position: absolute;
+  border-radius: 0 2px 0 50px;
+  border-top: 1px solid rgba(255, 255, 255, 1);
+}
+
+.boat-body::after {
+  content: '';
+  position: relative;
+  top: 10px;
+  left: 95px;
+  width: 5px;
+  height: 10px;
+  display: block;
+  border-radius: 15px 0 0 15px;
+  border: 0;
+  background-image: linear-gradient(
+    rgba(218, 240, 204, 1) 100%,
+    rgba(218, 240, 204, 1) 100%
+  );
+}
+
+.boat-stacks {
+  height: 0;
+  width: 80px;
+  padding-left: 15px;
+  margin-bottom: 15px;
+}
+
+.stack {
+  display: inline-block;
+  height: 9px;
+  width: 10px;
+  margin: 0 1px;
+  background: rgba(232, 74, 30, 1);
+  border-radius: 0 2px 0 0;
+}

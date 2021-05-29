@@ -1,0 +1,90 @@
+@keyframes island-surf {
+  10% {
+    background: linear-gradient(
+      rgba(255, 255, 255, 0.4) 0%,
+      lightsalmon 2%,
+      sandybrown 20%,
+      saddlebrown 100%
+    );
+  }
+
+  20% {
+    background: linear-gradient(
+      rgba(255, 255, 255, 0.4) 0%,
+      lightsalmon 4%,
+      sandybrown 20%,
+      saddlebrown 100%
+    );
+  }
+
+  30% {
+    background: linear-gradient(
+      rgba(255, 255, 255, 0.4) 0%,
+      lightsalmon 6%,
+      sandybrown 20%,
+      saddlebrown 100%
+    );
+  }
+
+  40% {
+    background: linear-gradient(
+      rgba(255, 255, 255, 0.4) 0%,
+      lightsalmon 8%,
+      sandybrown 20%,
+      saddlebrown 100%
+    );
+  }
+
+  50% {
+    background: linear-gradient(
+      rgba(255, 255, 255, 0.4) 0%,
+      lightsalmon 10%,
+      sandybrown 20%,
+      saddlebrown 100%
+    );
+  }
+
+  60% {
+    background: linear-gradient(
+      rgba(255, 255, 255, 0.4) 0%,
+      lightsalmon 8%,
+      sandybrown 20%,
+      saddlebrown 100%
+    );
+  }
+
+  70% {
+    background: linear-gradient(
+      rgba(255, 255, 255, 0.4) 0%,
+      lightsalmon 6%,
+      sandybrown 20%,
+      saddlebrown 100%
+    );
+  }
+
+  80% {
+    background: linear-gradient(
+      rgba(255, 255, 255, 0.4) 0%,
+      lightsalmon 4%,
+      sandybrown 20%,
+      saddlebrown 100%
+    );
+  }
+
+  90% {
+    background: linear-gradient(
+      rgba(255, 255, 255, 0.4) 0%,
+      lightsalmon 2%,
+      sandybrown 20%,
+      saddlebrown 100%
+    );
+  }
+
+  100% {
+    background: linear-gradient(
+      lightsalmon 0%,
+      sandybrown 20%,
+      saddlebrown 100%
+    );
+  }
+}

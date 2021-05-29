@@ -1,0 +1,182 @@
+@keyframes water {
+  5% {
+    background: linear-gradient(
+      skyblue 0%,
+      lightgrey 28%,
+      lightgoldenrodyellow 33%,
+      lightseagreen 61%,
+      cadetblue 100%
+    );
+  }
+  10% {
+    background: linear-gradient(
+      skyblue 0%,
+      lightgrey 28%,
+      lightgoldenrodyellow 33%,
+      lightseagreen 62%,
+      cadetblue 100%
+    );
+  }
+  15% {
+    background: linear-gradient(
+      skyblue 0%,
+      lightgrey 28%,
+      lightgoldenrodyellow 33%,
+      lightseagreen 63%,
+      cadetblue 100%
+    );
+  }
+  20% {
+    background: linear-gradient(
+      skyblue 0%,
+      lightgrey 28%,
+      lightgoldenrodyellow 33%,
+      lightseagreen 64%,
+      cadetblue 100%
+    );
+  }
+  25% {
+    background: linear-gradient(
+      skyblue 0%,
+      lightgrey 28%,
+      lightgoldenrodyellow 33%,
+      lightseagreen 65%,
+      cadetblue 100%
+    );
+  }
+  30% {
+    background: linear-gradient(
+      skyblue 0%,
+      lightgrey 28%,
+      lightgoldenrodyellow 33%,
+      lightseagreen 66%,
+      cadetblue 100%
+    );
+  }
+  35% {
+    background: linear-gradient(
+      skyblue 0%,
+      lightgrey 28%,
+      lightgoldenrodyellow 33%,
+      lightseagreen 67%,
+      cadetblue 100%
+    );
+  }
+  40% {
+    background: linear-gradient(
+      skyblue 0%,
+      lightgrey 28%,
+      lightgoldenrodyellow 33%,
+      lightseagreen 68%,
+      cadetblue 100%
+    );
+  }
+  45% {
+    background: linear-gradient(
+      skyblue 0%,
+      lightgrey 28%,
+      lightgoldenrodyellow 33%,
+      lightseagreen 69%,
+      cadetblue 100%
+    );
+  }
+  50% {
+    background: linear-gradient(
+      skyblue 0%,
+      lightgrey 28%,
+      lightgoldenrodyellow 33%,
+      lightseagreen 70%,
+      cadetblue 100%
+    );
+  }
+  55% {
+    background: linear-gradient(
+      skyblue 0%,
+      lightgrey 28%,
+      lightgoldenrodyellow 33%,
+      lightseagreen 71%,
+      cadetblue 100%
+    );
+  }
+  60% {
+    background: linear-gradient(
+      skyblue 0%,
+      lightgrey 28%,
+      lightgoldenrodyellow 33%,
+      lightseagreen 72%,
+      cadetblue 100%
+    );
+  }
+  65% {
+    background: linear-gradient(
+      skyblue 0%,
+      lightgrey 28%,
+      lightgoldenrodyellow 33%,
+      lightseagreen 73%,
+      cadetblue 100%
+    );
+  }
+  70% {
+    background: linear-gradient(
+      skyblue 0%,
+      lightgrey 28%,
+      lightgoldenrodyellow 33%,
+      lightseagreen 74%,
+      cadetblue 100%
+    );
+  }
+  75% {
+    background: linear-gradient(
+      skyblue 0%,
+      lightgrey 28%,
+      lightgoldenrodyellow 33%,
+      lightseagreen 75%,
+      cadetblue 100%
+    );
+  }
+  80% {
+    background: linear-gradient(
+      skyblue 0%,
+      lightgrey 28%,
+      lightgoldenrodyellow 33%,
+      lightseagreen 76%,
+      cadetblue 100%
+    );
+  }
+  85% {
+    background: linear-gradient(
+      skyblue 0%,
+      lightgrey 28%,
+      lightgoldenrodyellow 33%,
+      lightseagreen 77%,
+      cadetblue 100%
+    );
+  }
+  90% {
+    background: linear-gradient(
+      skyblue 0%,
+      lightgrey 28%,
+      lightgoldenrodyellow 33%,
+      lightseagreen 78%,
+      cadetblue 100%
+    );
+  }
+  95% {
+    background: linear-gradient(
+      skyblue 0%,
+      lightgrey 28%,
+      lightgoldenrodyellow 33%,
+      lightseagreen 79%,
+      cadetblue 100%
+    );
+  }
+  100% {
+    background: linear-gradient(
+      skyblue 0%,
+      lightgrey 28%,
+      lightgoldenrodyellow 33%,
+      lightseagreen 80%,
+      cadetblue 100%
+    );
+  }
+}
