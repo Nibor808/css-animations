@@ -8,7 +8,13 @@ body {
 }
 
 .bg {
-  background: linear-gradient(skyblue 0%, lightgrey 28%, lightgoldenrodyellow 33%, lightseagreen 60%, cadetblue 100%);
+  background: linear-gradient(
+    skyblue 0%,
+    lightgrey 28%,
+    lightgoldenrodyellow 33%,
+    lightseagreen 60%,
+    cadetblue 100%
+  );
   animation-name: water;
   animation-duration: 4s;
   animation-iteration-count: infinite;
@@ -47,14 +53,17 @@ body {
 .boat-body {
   height: 20px;
   width: 100px;
-  background: linear-gradient(rgba(87,87,87,0.9) 83%, rgba(218,240,204,1) 100%);
+  background: linear-gradient(
+    rgba(87, 87, 87, 0.9) 83%,
+    rgba(218, 240, 204, 1) 100%
+  );
   position: absolute;
   border-radius: 0 2px 0 50px;
-  border-top: 1px solid rgba(255,255,255,1);
+  border-top: 1px solid rgba(255, 255, 255, 1);
 }
 
 .boat-body::after {
-  content: "";
+  content: '';
   position: relative;
   top: 10px;
   left: 95px;
@@ -63,7 +72,10 @@ body {
   display: block;
   border-radius: 15px 0 0 15px;
   border: 0;
-  background-image: linear-gradient(rgba(218,240,204,1) 100%, rgba(218,240,204,1) 100%)
+  background-image: linear-gradient(
+    rgba(218, 240, 204, 1) 100%,
+    rgba(218, 240, 204, 1) 100%
+  );
 }
 
 .boat-stacks {
@@ -78,7 +90,7 @@ body {
   height: 9px;
   width: 10px;
   margin: 0 1px;
-  background: rgba(232,74,30,1);
+  background: rgba(232, 74, 30, 1);
   border-radius: 0 2px 0 0;
 }
 
@@ -118,11 +130,11 @@ body {
 .chair-back {
   height: 100px;
   width: 120px;
-  background: rgba(255,255,255,0.5);
+  background: rgba(255, 255, 255, 0.5);
   border: 5px solid rgba(255, 255, 255, 1);
   transform: skew(8deg);
   position: absolute;
-  z-index: 2
+  z-index: 2;
 }
 
 .chair-back-legs {
@@ -139,13 +151,13 @@ body {
 .chair-bottom {
   height: 485px;
   width: 500px;
-  background: rgba(255,255,255,0.5);
+  background: rgba(255, 255, 255, 0.5);
   border: 25px solid rgba(255, 255, 255, 1);
   transform: skew(80deg) rotateX(88deg) rotateY(-8deg) rotateZ(-12deg);
   position: absolute;
   top: -98.9%;
   left: -53%;
-  z-index: 2
+  z-index: 2;
 }
 
 .chair-bottom-legs {
@@ -162,10 +174,10 @@ body {
 /* Boat */
 @keyframes boat {
   to {
-    margin-left: 100%
+    margin-left: 100%;
   }
 
-  from  {
+  from {
     margin-left: -100px;
   }
 }
@@ -173,122 +185,307 @@ body {
 /* Water */
 @keyframes water {
   5% {
-    background: linear-gradient(skyblue 0%, lightgrey 28%, lightgoldenrodyellow 33%, lightseagreen 61%, cadetblue 100%);
+    background: linear-gradient(
+      skyblue 0%,
+      lightgrey 28%,
+      lightgoldenrodyellow 33%,
+      lightseagreen 61%,
+      cadetblue 100%
+    );
   }
   10% {
-    background: linear-gradient(skyblue 0%, lightgrey 28%, lightgoldenrodyellow 33%, lightseagreen 62%, cadetblue 100%);
+    background: linear-gradient(
+      skyblue 0%,
+      lightgrey 28%,
+      lightgoldenrodyellow 33%,
+      lightseagreen 62%,
+      cadetblue 100%
+    );
   }
   15% {
-    background: linear-gradient(skyblue 0%, lightgrey 28%, lightgoldenrodyellow 33%, lightseagreen 63%, cadetblue 100%);
+    background: linear-gradient(
+      skyblue 0%,
+      lightgrey 28%,
+      lightgoldenrodyellow 33%,
+      lightseagreen 63%,
+      cadetblue 100%
+    );
   }
   20% {
-    background: linear-gradient(skyblue 0%, lightgrey 28%, lightgoldenrodyellow 33%, lightseagreen 64%, cadetblue 100%);
+    background: linear-gradient(
+      skyblue 0%,
+      lightgrey 28%,
+      lightgoldenrodyellow 33%,
+      lightseagreen 64%,
+      cadetblue 100%
+    );
   }
   25% {
-    background: linear-gradient(skyblue 0%, lightgrey 28%, lightgoldenrodyellow 33%, lightseagreen 65%, cadetblue 100%);
+    background: linear-gradient(
+      skyblue 0%,
+      lightgrey 28%,
+      lightgoldenrodyellow 33%,
+      lightseagreen 65%,
+      cadetblue 100%
+    );
   }
   30% {
-    background: linear-gradient(skyblue 0%, lightgrey 28%, lightgoldenrodyellow 33%, lightseagreen 66%, cadetblue 100%);
+    background: linear-gradient(
+      skyblue 0%,
+      lightgrey 28%,
+      lightgoldenrodyellow 33%,
+      lightseagreen 66%,
+      cadetblue 100%
+    );
   }
   35% {
-    background: linear-gradient(skyblue 0%, lightgrey 28%, lightgoldenrodyellow 33%, lightseagreen 67%, cadetblue 100%);
+    background: linear-gradient(
+      skyblue 0%,
+      lightgrey 28%,
+      lightgoldenrodyellow 33%,
+      lightseagreen 67%,
+      cadetblue 100%
+    );
   }
   40% {
-    background: linear-gradient(skyblue 0%, lightgrey 28%, lightgoldenrodyellow 33%, lightseagreen 68%, cadetblue 100%);
+    background: linear-gradient(
+      skyblue 0%,
+      lightgrey 28%,
+      lightgoldenrodyellow 33%,
+      lightseagreen 68%,
+      cadetblue 100%
+    );
   }
   45% {
-    background: linear-gradient(skyblue 0%, lightgrey 28%, lightgoldenrodyellow 33%, lightseagreen 69%, cadetblue 100%);
+    background: linear-gradient(
+      skyblue 0%,
+      lightgrey 28%,
+      lightgoldenrodyellow 33%,
+      lightseagreen 69%,
+      cadetblue 100%
+    );
   }
   50% {
-    background: linear-gradient(skyblue 0%, lightgrey 28%, lightgoldenrodyellow 33%, lightseagreen 70%, cadetblue 100%);
+    background: linear-gradient(
+      skyblue 0%,
+      lightgrey 28%,
+      lightgoldenrodyellow 33%,
+      lightseagreen 70%,
+      cadetblue 100%
+    );
   }
   55% {
-    background: linear-gradient(skyblue 0%, lightgrey 28%, lightgoldenrodyellow 33%, lightseagreen 71%, cadetblue 100%);
+    background: linear-gradient(
+      skyblue 0%,
+      lightgrey 28%,
+      lightgoldenrodyellow 33%,
+      lightseagreen 71%,
+      cadetblue 100%
+    );
   }
   60% {
-    background: linear-gradient(skyblue 0%, lightgrey 28%, lightgoldenrodyellow 33%, lightseagreen 72%, cadetblue 100%);
+    background: linear-gradient(
+      skyblue 0%,
+      lightgrey 28%,
+      lightgoldenrodyellow 33%,
+      lightseagreen 72%,
+      cadetblue 100%
+    );
   }
   65% {
-    background: linear-gradient(skyblue 0%, lightgrey 28%, lightgoldenrodyellow 33%, lightseagreen 73%, cadetblue 100%);
+    background: linear-gradient(
+      skyblue 0%,
+      lightgrey 28%,
+      lightgoldenrodyellow 33%,
+      lightseagreen 73%,
+      cadetblue 100%
+    );
   }
   70% {
-    background: linear-gradient(skyblue 0%, lightgrey 28%, lightgoldenrodyellow 33%, lightseagreen 74%, cadetblue 100%);
+    background: linear-gradient(
+      skyblue 0%,
+      lightgrey 28%,
+      lightgoldenrodyellow 33%,
+      lightseagreen 74%,
+      cadetblue 100%
+    );
   }
   75% {
-    background: linear-gradient(skyblue 0%, lightgrey 28%, lightgoldenrodyellow 33%, lightseagreen 75%, cadetblue 100%);
+    background: linear-gradient(
+      skyblue 0%,
+      lightgrey 28%,
+      lightgoldenrodyellow 33%,
+      lightseagreen 75%,
+      cadetblue 100%
+    );
   }
   80% {
-    background: linear-gradient(skyblue 0%, lightgrey 28%, lightgoldenrodyellow 33%, lightseagreen 76%, cadetblue 100%);
+    background: linear-gradient(
+      skyblue 0%,
+      lightgrey 28%,
+      lightgoldenrodyellow 33%,
+      lightseagreen 76%,
+      cadetblue 100%
+    );
   }
   85% {
-    background: linear-gradient(skyblue 0%, lightgrey 28%, lightgoldenrodyellow 33%, lightseagreen 77%, cadetblue 100%);
+    background: linear-gradient(
+      skyblue 0%,
+      lightgrey 28%,
+      lightgoldenrodyellow 33%,
+      lightseagreen 77%,
+      cadetblue 100%
+    );
   }
   90% {
-    background: linear-gradient(skyblue 0%, lightgrey 28%, lightgoldenrodyellow 33%, lightseagreen 78%, cadetblue 100%);
+    background: linear-gradient(
+      skyblue 0%,
+      lightgrey 28%,
+      lightgoldenrodyellow 33%,
+      lightseagreen 78%,
+      cadetblue 100%
+    );
   }
   95% {
-    background: linear-gradient(skyblue 0%, lightgrey 28%, lightgoldenrodyellow 33%, lightseagreen 79%, cadetblue 100%);
+    background: linear-gradient(
+      skyblue 0%,
+      lightgrey 28%,
+      lightgoldenrodyellow 33%,
+      lightseagreen 79%,
+      cadetblue 100%
+    );
   }
   100% {
-    background: linear-gradient(skyblue 0%, lightgrey 28%, lightgoldenrodyellow 33%, lightseagreen 80%, cadetblue 100%);
+    background: linear-gradient(
+      skyblue 0%,
+      lightgrey 28%,
+      lightgoldenrodyellow 33%,
+      lightseagreen 80%,
+      cadetblue 100%
+    );
   }
 }
 
 /* Sun */
 @keyframes sun {
   0% {
-    background: linear-gradient(rgba(255,254,56,0.9) 0%, rgba(255,182,56,0.9) 25%, rgba(255,254,56,0.9) 100%);
+    background: linear-gradient(
+      rgba(255, 254, 56, 0.9) 0%,
+      rgba(255, 182, 56, 0.9) 25%,
+      rgba(255, 254, 56, 0.9) 100%
+    );
   }
   25% {
-    background: linear-gradient(rgba(255,254,56,0.9) 0%, rgba(255,195,56,0.9) 25%, rgba(255,254,56,0.9) 100%);
+    background: linear-gradient(
+      rgba(255, 254, 56, 0.9) 0%,
+      rgba(255, 195, 56, 0.9) 25%,
+      rgba(255, 254, 56, 0.9) 100%
+    );
   }
   50% {
-    background: linear-gradient(rgba(255,254,56,0.9) 0%, rgba(255,190,56,0.9) 25%, rgba(255,254,56,0.9) 100%);
+    background: linear-gradient(
+      rgba(255, 254, 56, 0.9) 0%,
+      rgba(255, 190, 56, 0.9) 25%,
+      rgba(255, 254, 56, 0.9) 100%
+    );
   }
   100% {
-    background: linear-gradient(rgba(255,254,56,0.9) 0%, rgba(255,182,56,0.9) 25%, rgba(255,254,56,0.9) 100%);
+    background: linear-gradient(
+      rgba(255, 254, 56, 0.9) 0%,
+      rgba(255, 182, 56, 0.9) 25%,
+      rgba(255, 254, 56, 0.9) 100%
+    );
   }
 }
 
 /* Island Surf*/
 @keyframes island-surf {
   10% {
-    background: linear-gradient(rgba(255,255,255,0.4) 0%, lightsalmon 2%, sandybrown 20%, saddlebrown 100%);
+    background: linear-gradient(
+      rgba(255, 255, 255, 0.4) 0%,
+      lightsalmon 2%,
+      sandybrown 20%,
+      saddlebrown 100%
+    );
   }
 
   20% {
-    background: linear-gradient(rgba(255,255,255,0.4) 0%, lightsalmon 4%, sandybrown 20%, saddlebrown 100%);
+    background: linear-gradient(
+      rgba(255, 255, 255, 0.4) 0%,
+      lightsalmon 4%,
+      sandybrown 20%,
+      saddlebrown 100%
+    );
   }
 
   30% {
-    background: linear-gradient(rgba(255,255,255,0.4) 0%, lightsalmon 6%, sandybrown 20%, saddlebrown 100%);
+    background: linear-gradient(
+      rgba(255, 255, 255, 0.4) 0%,
+      lightsalmon 6%,
+      sandybrown 20%,
+      saddlebrown 100%
+    );
   }
 
   40% {
-    background: linear-gradient(rgba(255,255,255,0.4) 0%, lightsalmon 8%, sandybrown 20%, saddlebrown 100%);
+    background: linear-gradient(
+      rgba(255, 255, 255, 0.4) 0%,
+      lightsalmon 8%,
+      sandybrown 20%,
+      saddlebrown 100%
+    );
   }
 
   50% {
-    background: linear-gradient(rgba(255,255,255,0.4) 0%, lightsalmon 10%, sandybrown 20%, saddlebrown 100%);
+    background: linear-gradient(
+      rgba(255, 255, 255, 0.4) 0%,
+      lightsalmon 10%,
+      sandybrown 20%,
+      saddlebrown 100%
+    );
   }
 
   60% {
-    background: linear-gradient(rgba(255,255,255,0.4) 0%, lightsalmon 8%, sandybrown 20%, saddlebrown 100%);
+    background: linear-gradient(
+      rgba(255, 255, 255, 0.4) 0%,
+      lightsalmon 8%,
+      sandybrown 20%,
+      saddlebrown 100%
+    );
   }
 
   70% {
-    background: linear-gradient(rgba(255,255,255,0.4) 0%, lightsalmon 6%, sandybrown 20%, saddlebrown 100%);
+    background: linear-gradient(
+      rgba(255, 255, 255, 0.4) 0%,
+      lightsalmon 6%,
+      sandybrown 20%,
+      saddlebrown 100%
+    );
   }
 
   80% {
-    background: linear-gradient(rgba(255,255,255,0.4) 0%, lightsalmon 4%, sandybrown 20%, saddlebrown 100%);
+    background: linear-gradient(
+      rgba(255, 255, 255, 0.4) 0%,
+      lightsalmon 4%,
+      sandybrown 20%,
+      saddlebrown 100%
+    );
   }
 
   90% {
-    background: linear-gradient(rgba(255,255,255,0.4) 0%, lightsalmon 2%, sandybrown 20%, saddlebrown 100%);
+    background: linear-gradient(
+      rgba(255, 255, 255, 0.4) 0%,
+      lightsalmon 2%,
+      sandybrown 20%,
+      saddlebrown 100%
+    );
   }
 
   100% {
-    background: linear-gradient(lightsalmon 0%, sandybrown 20%, saddlebrown 100%);
+    background: linear-gradient(
+      lightsalmon 0%,
+      sandybrown 20%,
+      saddlebrown 100%
+    );
   }
 }
