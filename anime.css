@@ -45,8 +45,8 @@ body {
 
 .sun {
   animation: sun calc(var(--animation-base) * 2 + 1s) infinite;
-  height: 175px;
-  width: 175px;
+  height: 125px;
+  width: 125px;
   position: absolute;
   top: 3%;
   left: 3%;
