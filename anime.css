@@ -79,6 +79,25 @@ body {
 @media screen and (min-width: 1600px) {
   .boat {
     margin-top: 270px;
+    height: 50px;
+    width: 110px;
+    margin-left: -110px;
+  }
+
+  .boat-body {
+    height: 22px;
+    width: 105px;
+  }
+
+  .stack {
+    height: 10px;
+    width: 11px;
+  }
+
+  .boat-body::after {
+    left: 98px;
+    width: 11px;
+    height: 12px;
   }
 }
 

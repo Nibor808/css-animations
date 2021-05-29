@@ -27,10 +27,6 @@
   display: block;
   border-radius: 15px 0 0 15px;
   border: 0;
-  /* background-image: linear-gradient(
-    rgba(218, 240, 204, 1) 100%,
-    rgba(218, 240, 204, 1) 100%
-  ); */
   background-image: linear-gradient(var(--bg-yellow), var(--bg-yellow));
 }
 
