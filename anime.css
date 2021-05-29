@@ -9,6 +9,7 @@
   --bg-blue: rgb(135, 206, 235);
   --bg-grey: rgb(211, 211, 211);
   --bg-yellow: rgb(250, 250, 210);
+  --sun-glow: rgba(250, 250, 210, 0.5);
   --bg-green: rgb(32, 178, 170);
   --bg-dark-blue: rgb(95, 158, 160);
   --island-light: rgb(255, 160, 122);
@@ -71,7 +72,7 @@ body {
 
 @media screen and (min-width: 1280px) {
   .boat {
-    margin-top: 210px;
+    margin-top: 205px;
   }
 }
 
@@ -83,6 +84,6 @@ body {
 
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
   .boat {
-    margin-top: 220px;
+    margin-top: 210px;
   }
 }
