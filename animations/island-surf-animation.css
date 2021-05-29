@@ -1,90 +1,90 @@
 @keyframes island-surf {
   10% {
     background: linear-gradient(
-      rgba(255, 255, 255, 0.4) 0%,
-      lightsalmon 2%,
-      sandybrown 20%,
-      saddlebrown 100%
+      var(--wave-break) 0%,
+      var(--island-light) 2%,
+      var(--island-med) 20%,
+      var(--island-dark) 100%
     );
   }
 
   20% {
     background: linear-gradient(
-      rgba(255, 255, 255, 0.4) 0%,
-      lightsalmon 4%,
-      sandybrown 20%,
-      saddlebrown 100%
+      var(--wave-break) 0%,
+      var(--island-light) 4%,
+      var(--island-med) 20%,
+      var(--island-dark) 100%
     );
   }
 
   30% {
     background: linear-gradient(
-      rgba(255, 255, 255, 0.4) 0%,
-      lightsalmon 6%,
-      sandybrown 20%,
-      saddlebrown 100%
+      var(--wave-break) 0%,
+      var(--island-light) 6%,
+      var(--island-med) 20%,
+      var(--island-dark) 100%
     );
   }
 
   40% {
     background: linear-gradient(
-      rgba(255, 255, 255, 0.4) 0%,
-      lightsalmon 8%,
-      sandybrown 20%,
-      saddlebrown 100%
+      var(--wave-break) 0%,
+      var(--island-light) 8%,
+      var(--island-med) 20%,
+      var(--island-dark) 100%
     );
   }
 
   50% {
     background: linear-gradient(
-      rgba(255, 255, 255, 0.4) 0%,
-      lightsalmon 10%,
-      sandybrown 20%,
-      saddlebrown 100%
+      var(--wave-break) 0%,
+      var(--island-light) 10%,
+      var(--island-med) 20%,
+      var(--island-dark) 100%
     );
   }
 
   60% {
     background: linear-gradient(
-      rgba(255, 255, 255, 0.4) 0%,
-      lightsalmon 8%,
-      sandybrown 20%,
-      saddlebrown 100%
+      var(--wave-break) 0%,
+      var(--island-light) 8%,
+      var(--island-med) 20%,
+      var(--island-dark) 100%
     );
   }
 
   70% {
     background: linear-gradient(
-      rgba(255, 255, 255, 0.4) 0%,
-      lightsalmon 6%,
-      sandybrown 20%,
-      saddlebrown 100%
+      var(--wave-break) 0%,
+      var(--island-light) 6%,
+      var(--island-med) 20%,
+      var(--island-dark) 100%
     );
   }
 
   80% {
     background: linear-gradient(
-      rgba(255, 255, 255, 0.4) 0%,
-      lightsalmon 4%,
-      sandybrown 20%,
-      saddlebrown 100%
+      var(--wave-break) 0%,
+      var(--island-light) 4%,
+      var(--island-med) 20%,
+      var(--island-dark) 100%
     );
   }
 
   90% {
     background: linear-gradient(
-      rgba(255, 255, 255, 0.4) 0%,
-      lightsalmon 2%,
-      sandybrown 20%,
-      saddlebrown 100%
+      var(--wave-break) 0%,
+      var(--island-light) 2%,
+      var(--island-med) 20%,
+      var(--island-dark) 100%
     );
   }
 
   100% {
     background: linear-gradient(
-      lightsalmon 0%,
-      sandybrown 20%,
-      saddlebrown 100%
+      var(--island-light) 0%,
+      var(--island-med) 20%,
+      var(--island-dark) 100%
     );
   }
 }
